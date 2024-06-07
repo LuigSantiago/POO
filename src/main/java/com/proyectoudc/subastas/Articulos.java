@@ -18,10 +18,10 @@ public class Articulos implements Serializable {
     private String Categoria;
     private String Subcategoria;
     private LocalDateTime FechaLimite;
-    private String UN;   
-    private static HashMap<String, Articulos> ArticulosBD = new HashMap<>();
+    private String UN;  
     private int Ofertas;
-    // Constructor
+    private static HashMap<String, Articulos> ArticulosBD = new HashMap<>();
+        // Constructor
     public Articulos() {
 
     }
